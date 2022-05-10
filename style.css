@@ -3,6 +3,8 @@
     text-align: left;
     color: rgb(0, 0, 0);
     font-size: 20px;
+    margin: 0 auto;
+    background-color: gray;
   }
 .paragraph {
     text-align: center;
