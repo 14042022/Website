@@ -10,19 +10,30 @@
 
     </head>
     <body>
+
+        <canvas id="DemoCanvas" width="500" height="100"></canvas> 
+<script>
+var canvas = document.getElementById("DemoCanvas");
+if (canvas.getContext) 
+{
+  var ctx = canvas.getContext('2d');
+  ctx.fillStyle='#fa4b2a';    // color of fill
+  ctx.fillRect(10, 40, 140, 160); // create rectangle  
+}
+</script>
+
         <div class="header">
             <nav>
             <ul>
-            <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDavi Carlos.html</h1>
+            <h1>Davi Carlos.html</h1>
             </ul>
             </nav>
         </div>
+        <span style="padding-left:20px">
         <div class="paragraph">
             <h10>
-                <pre>
-                Front End Devloper
-                UX/UI Designer
-                </pre>
+                <p>Front End Devloper
+                UX/UI Designer</p>
             </h10>
             <img src="https://user-images.githubusercontent.com/19921003/28238228-afdf79d2-6981-11e7-87c9-96d493c5490f.png" alt="">
         </div>
