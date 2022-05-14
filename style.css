@@ -1,12 +1,17 @@
+.body {
+  margin: 1.5em;
+}
 .header {
-    padding: 5px;
-    text-align: left;
     color: rgb(0, 0, 0);
     font-size: 20px;
-    position: fixed;
+    margin: 1.5em;
   }
 .paragraph {
-    text-align: center;
     color: rgb(0, 0, 0);
     font-size: 20px;
   }
+.image {
+  width: 10%;
+  height: 10%;
+
+}
