@@ -5,6 +5,8 @@
     color: rgb(0, 0, 0);
     font-size: 35px;
     margin: 0.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold 700;
   }
   a:link {
     text-decoration: none;
@@ -29,6 +31,7 @@
     color: rgb(0, 0, 0);
     font-size: 18px;
     position:fixed; left:150px; top:90px;
+    font-family: 'Open Sans', sans-serif;
   }
   img {
     max-width: 100%;
