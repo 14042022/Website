@@ -1,5 +1,5 @@
 .body {
-  margin: 1.5em;
+  margin: 1em;
 }
 .header {
     color: rgb(0, 0, 0);
@@ -32,14 +32,15 @@
     font-size: 18px;
     position:fixed; left:150px; top:90px;
     font-family: 'Open Sans', sans-serif;
+    line-height: 0.7;
   }
   img {
-    max-width: 100%;
+    max-width: 50%;
     max-height: 100%;
     object-fit: contain;
-    position:fixed; left:10px;
+    position:fixed; left:80px;
    }
    .image {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
    }
