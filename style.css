@@ -1,6 +1,7 @@
 .body {
   margin: 1em;
 }
+
 .header {
     color: rgb(0, 0, 0);
     font-size: 35px;
@@ -35,12 +36,22 @@
     line-height: 0.7;
   }
   img {
-    max-width: 50%;
+    max-width: 60%;
     max-height: 100%;
     object-fit: contain;
-    position:fixed; left:80px; top: 200px;
+    position:fixed; left:110px; top: 200px;
    }
    .image {
     height: 300px;
     width: 300px;
    }
+
+.button {
+  top:11%;
+  left:55%;
+  width:100px;
+  height:40px;
+  position: absolute;
+  z-index: 2;
+  background: orange; 
+}
