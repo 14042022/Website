@@ -31,20 +31,15 @@
 .paragraph {
     color: rgb(0, 0, 0);
     font-size: 18px;
-    position:fixed; left:150px; top:90px;
+    position:relative; left:150px; top:30px;
     font-family: 'Open Sans', sans-serif;
     line-height: 0.7;
-  }
-  img {
-    max-width: 60%;
-    max-height: 100%;
-    object-fit: contain;
-    position:fixed; left:110px; top: 200px;
-   }
-   .image {
-    height: 300px;
-    width: 300px;
-   }
+}
+.image{
+  position: absolute;
+  width:100px;
+  height:40px;
+}
 
 .button {
   top:11%;
