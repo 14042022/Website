@@ -1,13 +1,10 @@
-.body {
-  margin: 1em;
-}
-
 .header {
     color: rgb(0, 0, 0);
     font-size: 35px;
-    margin: 0.5em;
     font-family: 'Open Sans', sans-serif;
     font-style: bold 700;
+    position: sticky;
+    top: 0px;
   }
   a:link {
     text-decoration: none;
@@ -28,6 +25,7 @@
     text-decoration: none;
     color: black;
   }
+
 .paragraph {
     color: rgb(0, 0, 0);
     font-size: 18px;
@@ -35,18 +33,10 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 0.7;
 }
-.image{
-  position: absolute;
-  width:100px;
-  height:40px;
-}
 
-.button {
-  top:11%;
-  left:55%;
-  width:100px;
-  height:40px;
-  position: absolute;
-  z-index: 2;
-  background: orange; 
+.image{
+  position: relative;
+}
+.button{
+  position: relative;
 }
