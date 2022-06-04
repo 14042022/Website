@@ -1,11 +1,12 @@
 .header {
-    color: rgb(0, 0, 0);
-    font-size: 35px;
-    font-family: 'Open Sans', sans-serif;
-    font-style: bold 700;
-    position: sticky;
-    top: 0px;
-  }
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold 700;
+  position: sticky;
+  top: 0px;
+}
+
   a:link {
     text-decoration: none;
     color: black;
@@ -27,12 +28,13 @@
   }
 
 .paragraph {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    position:relative; left:150px; top:30px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 0.7;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  position:relative; left:150px; top:30px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 0.7;
 }
+
 img {
   position: relative;
   width: 80%;
@@ -40,7 +42,8 @@ img {
   bottom: -50px;
 }
 
-.button{
-  position: absolute;
-  left: 50px;
+.button {
+  position: relative;
+  left: 60px;
+  top: 100px;
 }
