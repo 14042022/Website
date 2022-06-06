@@ -3,7 +3,6 @@
   font-size: 35px;
   font-family: 'Open Sans', sans-serif;
   font-style: bold 700;
-  position: sticky;
   top: 0px;
 }
 
@@ -30,19 +29,19 @@
 .paragraph {
   color: rgb(0, 0, 0);
   font-size: 18px;
-  position:relative; left:150px; top:30px;
+  position:relative; left:150px;
   font-family: 'Open Sans', sans-serif;
   line-height: 0.7;
 }
 
 img {
-  position: relative;
   width: 80%;
   height: 80%;
-  padding-top: 30px;
 }
-
-.button {
-  position: relative;
-  padding-right: 100px 10px;
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: bottom;
+  align-items: bottom;
+  text-align: center;
 }
