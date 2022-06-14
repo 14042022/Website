@@ -1,6 +1,6 @@
 .all {
   color: rgb(0, 0, 0);
-  font-size: 35px;
+  font-size: 32px;
   font-family: 'Open Sans', sans-serif;
   font-style: bold 700;
   top: 0px;
@@ -18,7 +18,7 @@
   
   a:hover {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
   }
   
   a:active {
@@ -28,7 +28,7 @@
 
 .paragraph {
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 16px;
   position:relative; left:150px;
   font-family: 'Open Sans', sans-serif;
   line-height: 0.7;
@@ -41,9 +41,31 @@ img {
 .container{
   text-align: center;
 }
+
 .btn-1{
- 
+  background-color: #DCDCDC;
+  border-radius: 100px;
+  border: none;
+  color: black;
+  height: 25px;
+  width: 75px;
+  transition: 0.13s;
 }
+
 .btn-2{
-  
+  background-color: #DCDCDC;
+  border-radius: 100px;
+  border: none;
+  color: black;
+  height: 25px;
+  width: 75px;
+  transition: 0.13s;
+}
+
+.btn-2:hover,
+.btn-1:hover
+{
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 2px;
 }
