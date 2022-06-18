@@ -70,3 +70,9 @@ img {
 {
   color: green;
 }
+
+.btn-2:focus,
+.btn-1:focus
+{
+  background-color: rgb(81, 211, 81);
+}
