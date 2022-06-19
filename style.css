@@ -65,14 +65,26 @@ img {
   transition: 300ms ease-in-out;
 }
 
-.btn-2:hover,
+.btn-3{
+  background-color: #DCDCDC;
+  border-radius: 100px;
+  border: none;
+  color: black;
+  height: 25px;
+  width: 75px;
+  transition: 300ms ease-in-out;
+}
+
 .btn-1:hover
+.btn-2:hover,
+.btn-3:hover
 {
   color: green;
 }
 
+.btn-1:focus,
 .btn-2:focus,
-.btn-1:focus
+.btn-3:focus,
 {
   background-color: rgb(81, 211, 81);
 }
