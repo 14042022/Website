@@ -1,38 +1,9 @@
-.all {
-  color: rgb(0, 0, 0);
-  font-size: 32px;
-  font-family: 'Open Sans', sans-serif;
-  font-style: bold 700;
-
-  top: 0px;
-}
-
-  a:link {
-    text-decoration: none;
-    color: black;
-  }
-  
-  a:visited {
-    text-decoration: none;
-    color: black;
-  }
-  
-  a:hover {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
-  
-  a:active {
-    text-decoration: none;
-    color: black;
-  }
-
-.paragraph {
+.Heading {
   color: rgb(0, 0, 0);
   font-size: 16px;
   position:relative; left:150px; top: 13px;
   font-family: 'Open Sans', sans-serif;
-  line-height: 0.7;
+  line-height: 0.5;
 }
 
 img {
@@ -75,16 +46,16 @@ img {
   transition: 300ms ease-in-out;
 }
 
-.btn-1:hover
+.btn-1:hover,
 .btn-2:hover,
 .btn-3:hover
 {
-  color: green;
+  color: rgb(81, 15, 204);
 }
 
 .btn-1:focus,
 .btn-2:focus,
-.btn-3:focus,
+.btn-3:focus
 {
-  background-color: rgb(81, 211, 81);
+  background-color: rgb(81, 15, 204);
 }
