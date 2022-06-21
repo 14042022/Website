@@ -1,61 +1,37 @@
 .Heading {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 16px;
-  position:relative; left:150px; top: 13px;
+  position:relative; left:100px; top: 13px;
   font-family: 'Open Sans', sans-serif;
   line-height: 0.5;
 }
 
-img {
-  width: 110%;
-  height: 110%;
-  position: relative; right: 20px;
+.image {
+  width: 50%;
+  height: 50%;
+  position: relative; left: 100px;
   pointer-events: none;
 }
+
 .container{
   text-align: center;
+  position: relative; top: 310px;
 }
 
-.btn-1{
-  background-color: #DCDCDC;
-  border-radius: 100px;
-  border: none;
-  color: black;
-  height: 25px;
-  width: 75px;
-  transition: 300ms ease-in-out;
+#background{
+position: absolute;
+width: 500px;
+height: 100%;
+left: 0px;
+top: 0px;
+background: radial-gradient(148.61% 133.8% at 0% 0%, #AD00FF 0%, #0500FF 100%)
 }
 
-.btn-2{
-  background-color: #DCDCDC;
-  border-radius: 100px;
-  border: none;
-  color: black;
-  height: 25px;
-  width: 75px;
-  transition: 300ms ease-in-out;
-}
-
-.btn-3{
-  background-color: #DCDCDC;
-  border-radius: 100px;
-  border: none;
-  color: black;
-  height: 25px;
-  width: 75px;
-  transition: 300ms ease-in-out;
-}
-
-.btn-1:hover,
-.btn-2:hover,
-.btn-3:hover
-{
-  color: rgb(81, 15, 204);
-}
-
-.btn-1:focus,
-.btn-2:focus,
-.btn-3:focus
-{
-  background-color: rgb(81, 15, 204);
+#circle{
+position: absolute;
+width: 600px;
+height: 400px;
+top: 350px;
+left: -10px;
+background: #FFFFFF;
 }
