@@ -1,3 +1,8 @@
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .Heading {
   color: rgb(255, 255, 255);
   font-size: 16px;
@@ -15,7 +20,16 @@
 
 .container{
   text-align: center;
-  position: relative; top: 310px;
+  position: relative; top: 334px;
+  text-decoration: none;
+}
+
+.btn-1{
+
+}
+
+.btn-2{
+
 }
 
 #background{
@@ -29,6 +43,7 @@ background: radial-gradient(148.61% 133.8% at 0% 0%, #AD00FF 0%, #0500FF 100%)
 
 #circle{
 position: absolute;
+background-size: cover;
 width: 575px;
 height: 500px;
 top: 330px;
