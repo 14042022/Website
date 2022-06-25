@@ -12,15 +12,13 @@ body{
 }
 
 .image {
-  width: 50%;
-  height: 50%;
   position: relative; left: 100px;
   pointer-events: none;
 }
 
 .container{
   text-align: center;
-  position: relative; top: 334px;
+  position: relative; top: 310px;
   text-decoration: none;
 }
 
@@ -47,9 +45,9 @@ background-size: cover;
 width: 575px;
 height: 500px;
 top: 330px;
-left: -50px;
+left: -35px;
 margin-top: 20px;
 margin: auto;
-border-radius: 47%;
+border-radius: 50%;
 background: #FFFFFF;
 }
