@@ -42,10 +42,10 @@ background: radial-gradient(148.61% 133.8% at 0% 0%, #AD00FF 0%, #0500FF 100%)
 #circle{
 position: absolute;
 background-size: cover;
-width: 575px;
-height: 500px;
+width: 1000px;
+height: 1000px;
 top: 330px;
-left: -35px;
+left: -250px;
 margin-top: 20px;
 margin: auto;
 border-radius: 50%;
