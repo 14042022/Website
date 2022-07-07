@@ -1,3 +1,6 @@
-var msg1 = "nice"
-var msg2 = "hello"
-console.log(msg1,msg2)
+number = "2"
+if number == 2 {
+    palavra = "hello";
+}
+
+console.log(palavra)
