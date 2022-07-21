@@ -1,4 +1,5 @@
 
+//Slider
 spaceBetween: 25,
 loop: true,
 centerSlide: 'true',
