@@ -8,8 +8,8 @@ pagination: {
   el: ".swiper-pagination",
   clickable: true,
   dynamicBullets: true,
-//Buttons
 },
+//Buttons
 navigation: {
   nextEl: ".swiper-button-next",
   prevEl: ".swiper-button-prev",
