@@ -4,6 +4,7 @@ loop: true,
 centerSlide: 'true',
 fade: 'true',
 grabCursor: 'true',
+//Pages
 pagination: {
   el: ".swiper-pagination",
   clickable: true,
