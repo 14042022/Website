@@ -5,25 +5,30 @@ centerSlide: 'true',
 fade: 'true',
 grabCursor: 'true',
 //Pages
-pagination: {
+pagination: 
+{
   el: ".swiper-pagination",
   clickable: true,
   dynamicBullets: true,
 },
 //Buttons
-navigation: {
+navigation: 
+{
   nextEl: ".swiper-button-next",
   prevEl: ".swiper-button-prev",
 },
 //Breakpoints
 breakpoints:{
-    0: {
+    0: 
+    {
         slidesPerView: 1,
     },
-    520: {
+    520: 
+    {
         slidesPerView: 2,
     },
-    950: {
+    950: 
+    {
         slidesPerView: 3,
     },
 },
