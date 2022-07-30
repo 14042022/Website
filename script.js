@@ -32,4 +32,3 @@ breakpoints:{
         slidesPerView: 3,
     },
 },
-});
