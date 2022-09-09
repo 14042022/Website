@@ -1,37 +1,4 @@
-body{
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-.Heading {
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-  position:relative; left:100px; top: 13px;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 0.5;
-}
-
-.image {
-  position: relative; left: 100px;
-  pointer-events: none;
-}
-
-.container{
-  text-align: center;
-  position: relative; top: 310px;
-  text-decoration: none;
-}
-
 #background{
-position: absolute;
-width: 500px;
-height: 100%;
-left: 0px;
-top: 0px;
-background: radial-gradient(148.61% 133.8% at 0% 0%, #AD00FF 0%, #0500FF 100%)
-}
-
-#circle{
 position: absolute;
 background-size: cover;
 width: 1000px;
@@ -43,13 +10,3 @@ margin: auto;
 border-radius: 50%;
 background: #FFFFFF;
 }
-
-#project1{
-  position: absolute;
-  width: 225px;
-  height: 290px;
-  bottom: 60px;
-  right: 140px;
-  border-radius: 20%;
-  background: #dadada;
-  }
