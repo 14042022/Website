@@ -1,6 +1,7 @@
 .background{
     position:relative; left:100px; top: 13px;
     pointer-events: none;
+    background-size: cover;
 }
 
 .heading{
