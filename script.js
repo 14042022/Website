@@ -12,6 +12,7 @@ pagination:
   clickable: true,
   dynamicBullets: true,
 },
+
 //Buttons
 navigation: 
 {
